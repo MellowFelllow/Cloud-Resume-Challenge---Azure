@@ -1,9 +1,9 @@
 # Cloud-Resume-Challenge---Azure
 
-In the ever changing world of IT, you need to keep swimming to keep current (Pun intended). Here we will document my progress as I launch into the world of the Cloud
+In the ever-changing world of IT, you need to keep swimming to keep current (Pun intended). Here we will document my progress as I launch into the world of the Cloud
 
 # OverView - What is the Cloud Resume Challenge?
-The Cloud Resume challenge is a project designed to challenge and expose IT professionals to the basics and core services of Cloud computing. This resume created with HTML5 and CSS3 is the first step of many towards completion of the Cloud Resume Challenge for Azure. The roadmap for this project will ultimately include working with key Azure services such as:
+The Cloud Resume Challenge is a project designed to challenge and expose IT professionals to the basics and core services of Cloud computing. This resume created with HTML5 and CSS3 is the first step of many towards completing the Cloud Resume Challenge for Azure. The roadmap for this project will ultimately include working with key Azure services such as:
 
 - Hosting the resume on Azure Static Website via Azure Storage
 - Securing my resume using Azure CDN for HTTPS
