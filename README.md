@@ -31,4 +31,12 @@ May 24, 2024
 
 Today I wrapped up the resume portion of the project. I used HTML5 boilerplate, added a little sprinkle of styling with CSS, and spent more time than I would like to admit fussing with the CSS to line up the text. The CSS jokes I see online make much more sense to me now!
 
-The next step will be host it in an Azure Storage blob as a Static Website. To be continued!
+The next step will be to host it in an Azure Storage blob as a Static Website.
+
+May 25, 2024
+
+Today I created an Azure subscription and began making resources! I created a storage account which was very straightforward. From there, I enabled the Static website option which created a $web container. from there, uploading the index.html, my CSS and images was very easy and the site is now officially hosted online at: https://jamescooperresume.z13.web.core.windows.net/
+
+While this is all very nice, it could load faster and be more secure, the next step will be enabling a Content Delivery Network. It will also be nice to have a custom domain that better suits my needs, which will also follow. 
+
+---------------------------------------------------------------------------------
