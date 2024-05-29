@@ -15,8 +15,8 @@ At the free tier, three of the services we will be using will be free of charge,
 
 The roadmap for this project will ultimately include working with key Azure services such as:
 
-- Hosting the resume on Azure Static Website via Azure Storage - Storage
-- Securing my resume using Azure CDN for HTTPS - Security
+- Hosting the resume on Azure Static Website via Azure Storage - Storage **[Completed May 24, 2024] **
+- Securing my resume using Azure CDN for HTTPS - Security **[Completed May 28, 2024]**
 - Making the website publicly accessible with a domain from Azure DNS - Networking (Arguably, as we will have to point the DNS to our CDN)
 - Creating a database to track website visits using CosmosDB - Storage
 - Updating the website tracker count with Azure Functions - Automation
@@ -35,8 +35,17 @@ The next step will be to host it in an Azure Storage blob as a Static Website.
 
 May 25, 2024
 
-Today I created an Azure subscription and began making resources! I created a storage account which was very straightforward. From there, I enabled the Static website option which created a $web container. from there, uploading the index.html, my CSS and images was very easy and the site is now officially hosted online at: https://jamescooperresume.z13.web.core.windows.net/
+Today I created an Azure subscription and began making resources! I created a very straightforward storage account. From there, I enabled the Static website option which created a $web container. from there, uploading the index.html, my CSS and images was very easy and the site is now officially hosted online at: https://jamescooperresume.z13.web.core.windows.net/
 
 While this is all very nice, it could load faster and be more secure, the next step will be enabling a Content Delivery Network. It will also be nice to have a custom domain that better suits my needs, which will also follow. 
 
 ---------------------------------------------------------------------------------
+May 28, 2024
+
+Today's focus is on securing my website, the only person who should make a mess of my website is me! 
+
+I will be using Azure CDN to among other benefits, secure my website and provide that beautiful 'S' at the end of my HTTP. A CDN, or Content Delivery Network offers several other benefits, such as better performance and scaling, however, given the scope of this project, they are largely marginal benefits compared to securing the website. 
+
+This took slightly longer than anticipated as the Azure Frontdoor and CDN options are barred for Free-Tier accounts. However, once I upgraded to a pay-as-you-go account, the CDN was created as expected. Next session I will be creating an Azure DNS zone, then purchasing a Domain name from a registrar and pointing it toward the Azure DNS. As much as https://jamescooperresume.z13.web.core.windows.net just rolls off the tongue, I think something a little more bespoke might be nice.
+
+
